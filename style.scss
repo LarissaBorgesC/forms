@@ -78,3 +78,13 @@ form input[type=submit]{
     cursor: pointer;
 
 }
+
+@media (max-width: 300px) {
+    .container , form , .input-single label{
+        width: 260px;
+    }
+    body{
+        width: 400px;
+    }
+    
+}
